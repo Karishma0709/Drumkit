@@ -1,0 +1,132 @@
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+body{
+    background-image: url(image/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    position: relative;
+    top: 100px;
+    left: 450px;
+    width: 600px;
+}
+/*.hd{
+    position: relative;
+    top: 80px;
+    left: 450px;
+}*/
+.containerr{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 24px;
+}
+
+.drum{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 220px;
+    padding-top: 160px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    /*border: 5px solid black;*/
+    filter: drop-shadow(0px 0px 6px rgb(167, 163, 216)) ;
+   
+}
+
+
+.n1{
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    top: 230px;
+    left: 20px;
+    animation: names 2s linear;
+    }
+
+    @keyframes names{
+        0%{
+          opacity: 0%;
+          transform: rotate(90deg);
+          filter: blur(20px);
+        }
+        100%{
+          opacity: 1;
+          transform: rotate(0deg);
+          filter: blur(0px);
+        }
+    }
+
+.pressed{
+    animation:myAnim  2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+.a{
+    background-image: url(image/tom1.jpg);
+    background-size: contain;
+
+}
+.b{
+    background-image: url(image/floor1.jpg);
+    background-size: cover;
+
+}
+.c{
+    background-image: url(image/bass1.jpg);
+    background-size: cover;
+
+}
+.d{
+    background-image: url(image/hi-hat1.jpg);
+    background-size: cover;
+
+}
+.e{
+    background-image: url(image/snare1.jfif);
+    background-size: contain;
+
+}
+.f{
+    background-image: url(image/crash\ cymbal.jpg);
+    background-size: contain;
+}
+
+.in-name
+{   
+    font-family: 'Dancing Script', cursive;
+}
+
+@media screen and (min-width:767px){
+
+} ;
+    
